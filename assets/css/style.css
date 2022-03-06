@@ -1,3 +1,5 @@
+/* Style Properties for the Site */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,8 @@
 body {
     background-color: #d9dcd6;
 }
+
+/* Navigation Bar Style Start */
 
 header {
     padding: 20px;
@@ -46,9 +50,9 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/* Navigation Bar Style End */
+
+/* Hero Section Style Start */
 
 .hero {
     height: 800px;
@@ -57,6 +61,14 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Hero Section Style End */
+
+/* Content and Benefits Style Start */
+
+p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -116,6 +128,10 @@ p {
     font-size: 36px;
 }
 
+/* Content and Benefits Style End */
+
+/* Footer Style Start */
+
 .footer {
     padding: 30px;
     clear: both;
@@ -126,3 +142,5 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/* Footer Style End */
